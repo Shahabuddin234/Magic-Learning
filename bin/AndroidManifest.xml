@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.magiclearning"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Second"
+            android:label="@string/title_activity_second"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Third"
+            android:label="@string/title_activity_third"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Fourth"
+            android:label="@string/title_activity_fourth"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Fift"
+            android:label="@string/title_activity_fift" 
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            
+        </activity>
+        <activity
+            android:name=".Six"
+            android:label="@string/title_activity_six" 
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Seven"
+            android:label="@string/title_activity_seven" 
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Eight"
+            android:label="@string/title_activity_eight"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Nine"
+            android:label="@string/title_activity_nine"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Ten"
+            android:label="@string/title_activity_ten"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Eleven"
+            android:label="@string/title_activity_eleven"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Twelve"
+            android:label="@string/title_activity_twelve"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Thirteen"
+            android:label="@string/title_activity_thirteen"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Fourteen"
+            android:label="@string/title_activity_fourteen"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Fifteen"
+            android:label="@string/title_activity_fifteen"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Sixteen"
+            android:label="@string/title_activity_sixteen"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Seventeen"
+            android:label="@string/title_activity_seventeen"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Eightteen"
+            android:label="@string/title_activity_eightteen"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Nineteen"
+            android:label="@string/title_activity_nineteen"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+        <activity
+            android:name=".Twenty"
+            android:label="@string/title_activity_twenty"
+            android:theme="@android:style/Theme.Black.NoTitleBar" > 
+        </activity>
+    </application>
+
+</manifest>

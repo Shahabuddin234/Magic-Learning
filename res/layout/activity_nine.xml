@@ -1,0 +1,545 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.magiclearning.Nine" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+      <Button
+           android:id="@+id/button210"
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="60dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="বাক্য  "/>
+<Button
+           android:id="@+id/button211"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="অ-> অজগর\nঅজগর  ঐ   আসছে   তেড়ে  "/>  
+        <Button
+           android:id="@+id/button212"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+            android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="আ-> আম\nআমটি  আমি  খাবো  পেড়ে "/>
+        <Button
+           android:id="@+id/button213"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+            android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ই-> ইমাম\nইমাম  সাহেব  নামাজ   পড়ান  "/>
+         <Button
+           android:id="@+id/button214"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঈ-> ঈগল \nঈগল  পাখি  শিকার  ধরে "/>
+       <Button
+           android:id="@+id/button215"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="উ -> উট \nউট  চলেছে  মরুর  দেশে "/>
+        <Button
+           android:id="@+id/button216"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঊ -> ঊষা \nঊষা  হাসে  পূব  আকাশে  "/>      
+       <Button
+           android:id="@+id/button217"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+          android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঋ -> ঋতু \nষড়  ঋতুর  বাংলাদেশ "/>      
+     <Button
+           android:id="@+id/button218"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="এ -> একতারা  \nএকতারাটি  বাজে  বেশ   "/>
+     <Button
+           android:id="@+id/button219"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঐ -> ঐরাবত  \nঐরাবত  ঐ  ছুটে  চলে   "/>
+     <Button
+           android:id="@+id/button220"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ও  -> ওজন  \nওজন  কর  সঠিক  করে "/>
+     <Button
+           android:id="@+id/button221"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঔ -> ঔষধ  \nঔষধ  খাবে   অসুখ  হলে  "/>              
+    <Button
+           android:id="@+id/button222"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#F75D59"/>         
+     <Button
+           android:id="@+id/button223"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ক -> কলা  \nকলা  খেতে  লাগে  ভাল  "/>
+     <Button
+           android:id="@+id/button224"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="খ -> খেজুর  \nখেজুর  দিয়ে  ইফতার  কর  "/>
+     <Button
+           android:id="@+id/button225"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="গ -> গাড়ি  \nগাড়ি  চড়ে  যাব  বাড়ি  "/>
+     <Button
+           android:id="@+id/button226"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঘ -> ঘর  \nঘরে  ফিরব  তাড়াতাড়ি  "/>
+     <Button
+           android:id="@+id/button227"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঙ -> রঙ  \nরঙ  দিয়ে  আঁকব  ছবি  "/>
+     <Button
+           android:id="@+id/button228"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="চ -> চশমা  \nচশমা  পরে  দেখবে  দাদী   "/>
+     <Button
+           android:id="@+id/button229"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ছ -> ছাঁকনি \nছাঁকনি  দিয়ে  ছাকব  চা  "/>
+     <Button
+           android:id="@+id/button230"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="জ  -> জুতা \nজুতা  পায়ে  হাঁটবে  খোকা  "/>
+     <Button
+           android:id="@+id/button231"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঝ-> ঝুড়ি  \nঝুড়ির  ভিতর  সবজী  রাখে  "/>
+     <Button
+           android:id="@+id/button232"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঞ -> মি ঞ \nমি ঞ  মি ঞ  বিড়াল  ডাকে  "/>
+     <Button
+           android:id="@+id/button233"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ট -> টমেটো  \nটমেটো  কেটে  রান্না  কর  "/>
+     <Button
+           android:id="@+id/button234"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঠ  -> ঠোঁট  \nঠোঁটটি  পাখির  কত  বড়  "/>
+     <Button
+           android:id="@+id/button235"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ড -> ডাব  \nডাবের  ভিতর  মিষ্টি  পানি  "/>
+    <Button
+           android:id="@+id/button236"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঢ -> ঢোল \nঢোল  বাজিয়ে  শব্দ  শুনি  "/>
+     <Button
+           android:id="@+id/button237"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ণ -> হরিণ \nহরিণ  ছুটে  বনে  \nবনে  "/>
+     <Button
+           android:id="@+id/button238"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ত -> তালা  \nতালা  খোল  চাবি   এনে "/>
+     <Button
+           android:id="@+id/button239"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="থ -> থলে  \nথলের  ভিতর  বই  রাখি  "/>
+     <Button
+           android:id="@+id/button240"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="দ -> দোয়েল  \nদোয়েল  আমাদের  জাতীয়  পাখি  "/>
+     <Button
+           android:id="@+id/button241"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ধ -> ধান  \nধান  ফলিয়ে  বাঁচে  চাষি  "/>
+     <Button
+           android:id="@+id/button242"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ন  -> নারিকেল  \nনারিকেল  খেতে  ভালবাসি  "/>
+     <Button
+           android:id="@+id/button243"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="প  -> পাখি  \nপাখি  গান  গায়  গাছে  গাছে  "/>
+     <Button
+           android:id="@+id/button244"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ফ  -> ফুল  \nফুলেতে  মধু  আছে  "/>                                                 
+     <Button
+           android:id="@+id/button245"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ব -> বই  \nবই  পড়লে  জ্ঞানী  হবো  "/>
+     <Button
+           android:id="@+id/button246"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ভ  -> ভুট্টা  \nভুট্টার  খৈ  আমরা  খাব  "/>
+     <Button
+           android:id="@+id/button247"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ম  -> ময়না  \nময়না  পাখি  গান  করে  "/>
+     <Button
+           android:id="@+id/button248"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="য -> যাঁতা  \nযাঁতা  ঘুরে  হাতের  জোরে  "/>
+     <Button
+           android:id="@+id/button249"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="র  -> রসুন  \nরসুনের  রঙ  বেজায়  সাদা  "/>
+     <Button
+           android:id="@+id/button250"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ল -> লাটিম  \nলাটিম  ঘুরাতে  ভারি  মজা  "/>
+     <Button
+           android:id="@+id/button251"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="শ -> শাপলা  \nশাপলা  ফুটে  বিলের  জলে "/>
+     <Button
+           android:id="@+id/button252"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ষ -> ষাঁড়  \nষাঁড়  খুশি  ঘাস  পেলে  "/>
+     <Button
+           android:id="@+id/button253"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="স  -> সিন্দুক  \nসিন্দুকে  মনি  মুক্তা  রাখে  "/>
+     <Button
+           android:id="@+id/button254"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="হ  -> হারিকেন  \nহারিকেন  জ্বালালে  আলো  আসে "/>
+     <Button
+           android:id="@+id/button255"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ক্ষ  -> শিক্ষক  \nশিক্ষককে  সম্মান \n কর  "/>
+     <Button
+           android:id="@+id/button256"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ড়  -> গাড়ি  \nগাড়ি  নিয়ে  ঘুরি  \nচল  "/>
+     <Button
+           android:id="@+id/button257"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঢ়  -> আষাঢ়  \nআষাঢ়  মাসে  বৃষ্টি  হয়  "/>
+     <Button
+           android:id="@+id/button258"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="য় -> পায়রা  \nপায়রাটি   দাঁড়িয়ে  রয়  "/>
+     <Button
+           android:id="@+id/button259"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ৎ -> মৎস্য   \nমৎস্য  থাকে  নদীর  জলে  "/>
+     <Button
+           android:id="@+id/button260"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ং -> চিংড়ী  \nচিংড়ী  আমার  প্রিয়  খাবার  "/>
+     <Button
+           android:id="@+id/button261"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#1F45FC"
+           android:textColor="#FFFFFF"
+           android:text="ঃ -> দুঃখ  \nদুঃখ  দিওনা  কারো  মনে  "/>
+
+                    
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

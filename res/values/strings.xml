@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Magic Learning</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_third">Third</string>
+    <string name="title_activity_fourth">Fourth</string>
+    <string name="title_activity_fift">Fift</string>
+    <string name="title_activity_six">Six</string>
+    <string name="title_activity_seven">Seven</string>
+    <string name="title_activity_eight">Eight</string>
+    <string name="title_activity_nine">Nine</string>
+    <string name="title_activity_ten">Ten</string>
+    <string name="title_activity_eleven">Eleven</string>
+    <string name="title_activity_twelve">Twelve</string>
+    <string name="title_activity_thirteen">Thirteen</string>
+    <string name="title_activity_fourteen">Fourteen</string>
+    <string name="title_activity_fifteen">Fifteen</string>
+    <string name="title_activity_sixteen">Sixteen</string>
+    <string name="title_activity_seventeen">Seventeen</string>
+    <string name="title_activity_eightteen">Eightteen</string>
+    <string name="title_activity_nineteen">Nineteen</string>
+    <string name="title_activity_twenty">Twenty</string>
+
+</resources>

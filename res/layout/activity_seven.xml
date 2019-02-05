@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.magiclearning.Seven" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+     <Button
+           android:id="@+id/button1"
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="60dp"
+           android:background="#A52A2A"
+           android:textColor="#FFFFFF"
+           android:text="স্বরচিহ্ন"/>
+      <Button
+           android:id="@+id/button2"
+           android:layout_width="match_parent"
+           android:layout_height="2000dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="40dp"
+           android:background="#151B54"
+           android:textColor="#FFFFFF"
+           android:text="া  \nকা  খা  গা  ঘা  চা  ছা  মা  ভা \n\n ি \nকি  খি  গি  ঘি  চি  ছি  টি  মি  \n\nী  \nকী  খী  গী  ঘী  চী  ছী  টী  বী   \n\nু  \nকু  খু  গু  ঘু  চু  ছু  টু  থু  ডু   \n\nূ  \nকূ  খূ  চূ  তূ  দূ  ধূ  নূ  পূ  সূ \n\n ৃ \nকৃ  খৃ  ঘৃ  চৃ  ছৃ  দৃ  ধৃ  নৃ  পৃ  শৃ  \n\nে  \nকে  খে  গে  ঘে  চে  ছে   ডে  তে  \n\nৈ \nকৈ  খৈ  চৈ  ছৈ  তৈ  থৈ  দৈ  নৈ  \n\nো \nকো  খো  গো  ঘো  চো  ছো  তো  থো  \n\nৌ\nকৌ  চৌ  মৌ  বৌ  নৌ  যৌ  লৌ  সৌ  "/> 
+
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

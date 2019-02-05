@@ -1,0 +1,288 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.magiclearning.Thirteen" >
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+      
+     <Button
+           android:id="@+id/button183"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="A-> APPLE\nApple is good for health."/> 
+         <Button
+           android:id="@+id/button184"
+           android:layout_width="match_parent"
+           android:layout_height="170dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="B->BACKBONE\nEducation is the backbone of a nation."/> 
+        <Button
+           android:id="@+id/button185"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="C-> CAMEL\nCamel is a big animal."/> 
+         <Button
+           android:id="@+id/button186"
+           android:layout_width="match_parent"
+           android:layout_height="180dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="D-> DAHLIA\nDahlia is a name of a flower."/> 
+         <Button
+           android:id="@+id/button187"
+           android:layout_width="match_parent"
+           android:layout_height="170dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="E-> EARLY\nEarly to bed early to rise is well."/>   
+         <Button
+           android:id="@+id/button188"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="F-> FISH\nFish is good for health."/> 
+         <Button
+           android:id="@+id/button189"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="G-> GRAPE\nThe grape is a green fruit."/>   
+         <Button
+           android:id="@+id/button190"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="H-> HABIT\nGive up your bad habit."/>
+      <Button
+           android:id="@+id/button191"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="I-> INK POT\nThis is a black ink pot."/>
+        <Button
+           android:id="@+id/button192"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="J-> JUG\nGive me a jug of water."/>
+        <Button
+           android:id="@+id/button193"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="K-> KING\nKing is a powerful man."/>
+        <Button
+           android:id="@+id/button194"
+           android:layout_width="match_parent"
+           android:layout_height="180dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="L-> LOCK\nLock the door before sleeping."/>   
+        <Button
+           android:id="@+id/button195"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="M-> MOON\nShape of moon is as a circle."/>
+        <Button
+           android:id="@+id/button196"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="N-> NAIL\nCut your nail regularly."/>
+       <Button
+           android:id="@+id/button197"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="O-> OLIVE\nOlive is a sour fruit."/>
+       <Button
+           android:id="@+id/button198"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="P-> POOR\nDo not hate the poor."/>
+       <Button
+           android:id="@+id/button199"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="Q-> QUEEN\nRima is a queen."/>
+        <Button
+           android:id="@+id/button200"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="R-> RAIN\nThis is a rainy day."/>
+       <Button
+           android:id="@+id/button201"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="S-> SAINT\nRahul is a saint man."/>
+       <Button
+           android:id="@+id/button202"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="T-> TAILOR\nHis farher is a tailor."/>
+        <Button
+           android:id="@+id/button203"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="U-> UMBRELLA\nThis is a black umbrella."/>
+        <Button
+           android:id="@+id/button204"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="V-> VAN\nDrive the van carefully."/>
+        <Button
+           android:id="@+id/button205"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="W-> WASH\nWash your dress regularly."/>
+        <Button
+           android:id="@+id/button206"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="X-> XMASDAY\nToday is xmasday."/>
+        <Button
+           android:id="@+id/button207"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="Y-> YELLOW\nYellow is a good colour."/>
+        <Button
+           android:id="@+id/button208"
+           android:layout_width="match_parent"
+           android:layout_height="180dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="36dp"
+           android:textSize="35dp"
+           android:background="#800080"
+           android:textColor="#00FF00"
+           android:text="Z-> ZOOM\nZoom the picture."/>  
+         
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
